@@ -5,7 +5,8 @@
         "title": "Blockchain Blog",
         "spec_directory": "./mydoc",
         "markdown_paths": [
-          "Introduction.md"
+          "Introduction.md",
+          "Test.md"
         ],
         "logo": "../logo.svg",
         "logo_link": "https://github.com/decentralized-identity/spec-up",

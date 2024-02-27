@@ -1,0 +1,35 @@
+{
+    "specs": [
+      
+      {
+        "title": "Blockchain Blog",
+        "spec_directory": "./mydoc",
+        "markdown_paths": [
+          "Introduction.md"
+        ],
+        "logo": "../logo.svg",
+        "logo_link": "https://github.com/decentralized-identity/spec-up",
+        "source": {
+          "host": "github",
+          "account": "decentralized-identity",
+          "repo": "spec-up"
+        },
+        "output_path": "./",
+        "assets": [
+          {
+            "path": "/custom-assets/custom.css"
+          },
+          {
+            "path": "/custom-assets/custom-head.js",
+            "inject": "head"
+          },
+          {
+            "path": "/custom-assets/custom-body.js",
+            "inject": "body",
+            "module": true
+          }
+        ],
+        "katex": true
+      }
+    ]
+  }

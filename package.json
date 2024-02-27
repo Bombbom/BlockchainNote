@@ -1,0 +1,25 @@
+{
+  "name": "mydoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "edit": "node -e \"require('./index')()\"",
+    "render": "node -e \"require('./index')({ nowatch: true })\"",
+    "dev": "node -e \"require('./index')({ dev: true })\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bombbom/MyBlockchainDoc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bombbom/MyBlockchainDoc/issues"
+  },
+  "homepage": "https://github.com/Bombbom/MyBlockchainDoc#readme",
+  "dependencies": {
+    "spec-up": "^0.10.6"
+  }
+}

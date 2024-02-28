@@ -6,6 +6,8 @@
         "spec_directory": "./mydoc",
         "markdown_paths": [
           "Introduction.md",
+          "math/Introduction.md",
+          "mindmap/1.hyperledger.mindmap.md",
           "References.md"
         ],
         "logo": "./logo.svg",

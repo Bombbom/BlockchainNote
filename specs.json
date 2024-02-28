@@ -6,14 +6,15 @@
         "spec_directory": "./mydoc",
         "markdown_paths": [
           "Introduction.md",
-          "Test.md"
+          "References.md"
         ],
-        "logo": "../logo.svg",
-        "logo_link": "https://github.com/decentralized-identity/spec-up",
+        "logo": "./logo.svg",
+        "logo_link": "https://github.com/Bombbom/BlockchainNote",
         "source": {
           "host": "github",
-          "account": "decentralized-identity",
-          "repo": "spec-up"
+          "account": "Bombbom",
+          "repo": "BlockchainNote"
+          
         },
         "output_path": "./",
         "assets": [

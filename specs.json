@@ -1,0 +1,39 @@
+{
+    "specs": [
+      
+      {
+        "title": "Blockchain Blog",
+        "spec_directory": "./mydoc",
+        "markdown_paths": [
+          "Introduction.md",
+          "math/Introduction.md",
+          "mindmap/1.hyperledger.mindmap.md",
+          "References.md"
+        ],
+        "logo": "./logo.svg",
+        "logo_link": "https://github.com/Bombbom/BlockchainNote",
+        "source": {
+          "host": "github",
+          "account": "Bombbom",
+          "repo": "BlockchainNote"
+          
+        },
+        "output_path": "./",
+        "assets": [
+          {
+            "path": "/custom-assets/custom.css"
+          },
+          {
+            "path": "/custom-assets/custom-head.js",
+            "inject": "head"
+          },
+          {
+            "path": "/custom-assets/custom-body.js",
+            "inject": "body",
+            "module": true
+          }
+        ],
+        "katex": true
+      }
+    ]
+  }
